@@ -6,8 +6,9 @@
     background: #daace8;
     margin-left: auto;
     margin-right: auto;
-    color: #2a3774;
-    border-radius:5px;
+    color: #803897;
+    border-radius: 5px;
     text-transform: uppercase;
     border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
