@@ -4,11 +4,12 @@
     src: url(../ContentFolder/FontFoler/Jura.ttf);
 }
 
-#OtherStyleText
+#OtherLogoText
 {
     font-size: 40px;
     font-family: 'Jura', sans-serif;
     color: #f5f5f5;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
