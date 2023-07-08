@@ -3,18 +3,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Авторизация</title>
-        <link rel="stylesheet" href="StyleFolder/DivStyle.css">
-        <link rel="stylesheet" href="StyleFolder/BodyStyle.css">
-        <link rel="stylesheet" href="StyleFolder/TextStyle.css">
-        <link rel="stylesheet" href="StyleFolder/InputStyle.css">
-        <link rel="stylesheet" href="StyleFolder/ButtonStyle.css">
-        <link rel="stylesheet" href="StyleFolder/LinkStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/DivStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/BodyStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/TextStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/InputStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/ButtonStyle.css">
+        <link rel="stylesheet" href="../StyleFolder/LinkStyle.css">
     </head>
     <body id="BackgroundPageStyle">
         <div class="BackgroundAuthorization"> <!--Общий-->
             <div 
                 id="StackPanekVertical"
-                style="height: 600;"> <!--Квадрад 1-->
+                style="height: 600px;"> <!--Квадрад 1-->
                 <p id="OtherLogoText">PublishingPhotos</p>
                     <div 
                         class="BackgroundAtuhorization" 
@@ -34,7 +34,7 @@
                         <input
                             placeholder="Password"
                             class="MainInput"
-                            name="LoginTextBox"
+                            name="PasswordPasswordBox"
                             type="password"
                             maxlength="80"
                             style="
@@ -45,19 +45,41 @@
                             class="MainStyle"
                             name="AuthorizationBytton"
                             style=" 
-                                width: 220;
+                                width: 320;
                                 margin-top: 20px;">Авторизация</button>
-                        <p class="MainText">★★★★★  ИЛИ  ★★★★★</p>
+                        <p class="MainText" style="color: #c3c3c3;">★★★★★  ИЛИ  ★★★★★</p>
                         <div 
                             id="StackPanekVertical"
                             style="
                                 margin-top: 0px;
+                                margin-bottom: 10px;
                                 justify-content: center;
                                 display:flex;
                                 align-items: center;
                                 height: 40;"> <!--Квадрат 2-->
-                            
+                            <label
+                                class="IconText"
+                                style="
+                                    color: #c3c3c3;
+                                    margin-left: 0;
+                                    margin-right: 10;">&#xf34e;</label>
+                            <label 
+                                class="IconText"
+                                style="
+                                color: #c3c3c3;
+                                    margin-left: 10;
+                                    margin-right: 10;">&#xf34f;</label>
+                            <label 
+                                class="IconText"
+                                style="
+                                    color: #c3c3c3;
+                                    margin-left: 10;
+                                    margin-right: 0;">&#xf342;</label>
                         </div>
+                        <a 
+                            class="MainLinl"
+                            style="margin-top: 10px; font-size: 18px;" 
+                            href="RegistrationPage.html">Забыли пароль?</a>
                     </div>
             </div>
             <div 
@@ -74,7 +96,7 @@
                         <a 
                             class="MainLinl"
                             style="margin-left: 5px;" 
-                            href="https://www.youtube.com/watch?v=L4DoG2qjVF8&list=RDap35bAMXqZw&index=27">Зарегистрироваться</a>
+                            href="RegistrationPage.html">Зарегистрироваться</a>
             </div>
         </div>
     </body>
