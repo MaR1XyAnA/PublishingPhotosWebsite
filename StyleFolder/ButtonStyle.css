@@ -11,4 +11,10 @@
     text-transform: uppercase;
     border: 0;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    transition-duration: 0.2s;
 }
+
+.MainStyle:hover {
+    background-color: #e1a0f4;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
