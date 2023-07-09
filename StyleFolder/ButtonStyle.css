@@ -1,19 +1,20 @@
 .MainStyle
 {
-    height: 60px;
-    font-family: 'Jura', sans-serif;
-    font-size: 25px;
-    background: #daace8;
-    margin-left: auto;
-    margin-right: auto;
-    color: #803897;
-    border-radius: 5px;
-    text-transform: uppercase;
-    border: 0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    transition-duration: 0.2s;
+	height: 60px;
+	font-family: 'MyJura', sans-serif;
+	font-size: 25px;
+	background: #daace8;
+	margin-left: auto;
+	margin-right: auto;
+	color: #803897;
+	border-radius: 5px;
+	text-transform: uppercase;
+	border: 0;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+	transition-duration: 0.2s;
 }
 
-.MainStyle:hover {
-    background-color: #e1a0f4;
-  }
+.MainStyle:hover 
+{
+	background-color: #e1a0f4;
+}
