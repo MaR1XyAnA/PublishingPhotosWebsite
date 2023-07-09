@@ -1,4 +1,4 @@
-#StackPanekVertical
+#InformationSquare
 {
 	border-radius:10px;
 	background: #19191a;
@@ -9,7 +9,7 @@
 	margin-right: auto;
 }
 
-.BackgroundAuthorization
+.MainSquare
 {
 	text-align: center;
 	background: transparent;
