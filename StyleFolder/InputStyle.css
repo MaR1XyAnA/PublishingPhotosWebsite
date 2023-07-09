@@ -1,3 +1,4 @@
+/* Основной стиль*/
 .MainInput
 {
 	font-family: 'MyJura', sans-serif;
@@ -15,12 +16,14 @@
 	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
+/* При переходе по "Tab" или нажатии на элемент */
 .MainInput:focus
 {
 	outline: none; 
 	border: 2px solid #e1a0f4;
 }
 
+/* Отключить глазик у пароля */
 input[type=password]::-ms-reveal,
 input[type=password]::-ms-clear
 {

@@ -1,5 +1,6 @@
-.MainStyle
-{
+/* Основной стиль */
+.MainButton
+{	
 	height: 60px;
 	font-family: 'MyJura', sans-serif;
 	font-size: 25px;
@@ -9,12 +10,20 @@
 	color: #803897;
 	border-radius: 5px;
 	text-transform: uppercase;
-	border: 0;
+	border: 2px solid #daace8;
 	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 	transition-duration: 0.2s;
 }
 
-.MainStyle:hover 
+/* При наведении курсора */
+.MainButton:hover 
 {
 	background-color: #e1a0f4;
+}
+
+/* Переход по "Tab" */
+.MainButton:focus
+{
+	outline: none; 
+	box-shadow:0 0 15px 4px #e1a0f4;
 }

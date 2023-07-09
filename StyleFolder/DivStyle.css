@@ -1,3 +1,4 @@
+/* Основной стиль*/
 #InformationSquare
 {
 	border-radius:10px;
@@ -9,6 +10,7 @@
 	margin-right: auto;
 }
 
+/* Это что-то на подобии создания облости для работы */
 .MainSquare
 {
 	text-align: center;
