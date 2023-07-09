@@ -1,114 +1,117 @@
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Регистрация</title>
-        <link rel="stylesheet" href="../../StyleFolder/DivStyle.css">
-        <link rel="stylesheet" href="../../StyleFolder/BodyStyle.css">
-        <link rel="stylesheet" href="../../StyleFolder/TextStyle.css">
-        <link rel="stylesheet" href="../../StyleFolder/InputStyle.css">
-        <link rel="stylesheet" href="../../StyleFolder/ButtonStyle.css">
-        <link rel="stylesheet" href="../../StyleFolder/LinkStyle.css">
-    </head>
-    <body id="BackgroundPageStyle">
-        <div class="BackgroundAuthorization"> <!--Общий-->
-            <div 
-                id="StackPanekVertical"
-                style="height: 760px;"> <!--Квадрад 1-->
-                <p id="OtherLogoText">PublishingPhotos</p>
-                    <div 
-                        class="BackgroundAtuhorization" 
-                        style="
-                            height: 250px;
-                            margin-bottom: 20px;
-                            margin-top: -40px;">
-                        <input
-                            placeholder="Эл. почта"
-                            class="MainInput"
-                            name="EmailTextBox"
-                            type="text"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        <input
-                            placeholder="Фамилия"
-                            class="MainInput"
-                            name="MiddlenameTextBox"
-                            type="text"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        <input
-                            placeholder="Имя"
-                            class="MainInput"
-                            name="NameTextBox"
-                            type="text"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        <input
-                            placeholder="Nick"
-                            class="MainInput"
-                            name="NickTextBox"
-                            type="text"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        <input
-                            placeholder="Пароль"
-                            class="MainInput"
-                            name="PasswordTextBox"
-                            type="text"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        <input
-                            placeholder="Повторите пароль"
-                            class="MainInput"
-                            name="PasswordPasswordBox"
-                            type="password"
-                            maxlength="80"
-                            style="
-                                width: 480px;
-                                margin-top: 10px;
-                                margin-bottom: 10px;">
-                        
-                        <button
-                            class="MainStyle"
-                            name="AuthorizationBytton"
-                            style=" 
-                                width: 320;
-                                margin-top: 20px;">РЕГИСТРАЦИЯ</button>
-                    </div>
-            </div>
-            <div 
-                id="StackPanekVertical"
-                style="
-                    justify-content: center;
-                    display:flex;
-                    align-items: center;
-                    height: 80;
-                    margin-top: 20px;"> <!--Квадрат 2-->
-                        <p 
-                            class="MainText" 
-                            style="
-                                color: #c3c3c3;;
-                                margin-right: 5px;">У вас уже есть аккаунта?</p>
-                        <a 
-                            class="MainLinl"
-                            style="margin-left: 5px;" 
-                            href="AuthorizationPage.html">Авторизоваться</a>
-            </div>
-        </div>
-    </body>
+	<head>
+		<title>Регистрация</title>
+		<!--#region meta-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--#endregion -->
+		<!--#region link-->
+		<link rel="stylesheet" href="../../StyleFolder/DivStyle.css">
+		<link rel="stylesheet" href="../../StyleFolder/BodyStyle.css">
+		<link rel="stylesheet" href="../../StyleFolder/TextStyle.css">
+		<link rel="stylesheet" href="../../StyleFolder/InputStyle.css">
+		<link rel="stylesheet" href="../../StyleFolder/ButtonStyle.css">
+		<link rel="stylesheet" href="../../StyleFolder/LinkStyle.css">
+		<!--#endregion -->
+	</head>
+	<body id="BackgroundPageStyle">
+		<div class="BackgroundAuthorization"> <!--Общий-->
+			<div 
+				id="StackPanekVertical"
+				style="height: 760px;"> <!--Квадрад 1-->
+				<p id="OtherLogoText">PublishingPhotos</p>
+				<div 
+					class="BackgroundAtuhorization" 
+					style="
+						height: 250px;
+						margin-bottom: 20px;
+						margin-top: -40px;">
+					<input
+						placeholder="Эл. почта"
+						class="MainInput"
+						name="EmailTextBox"
+						type="text"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<input
+						placeholder="Фамилия"
+						class="MainInput"
+						name="MiddlenameTextBox"
+						type="text"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<input
+						placeholder="Имя"
+						class="MainInput"
+						name="NameTextBox"
+						type="text"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<input
+						placeholder="Nick"
+						class="MainInput"
+						name="NickTextBox"
+						type="text"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<input
+						placeholder="Пароль"
+						class="MainInput"
+						name="PasswordTextBox"
+						type="text"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<input
+						placeholder="Повторите пароль"
+						class="MainInput"
+						name="PasswordPasswordBox"
+						type="password"
+						maxlength="80"
+						style="
+							width: 480px;
+							margin-top: 10px;
+							margin-bottom: 10px;">
+					<button
+						class="MainStyle"
+						name="AuthorizationBytton"
+						style=" 
+							width: 320;
+							margin-top: 20px;">РЕГИСТРАЦИЯ</button>
+				</div>
+			</div>
+			<div 
+				id="StackPanekVertical"
+				style="
+					justify-content: center;
+					display:flex;
+					align-items: center;
+					height: 80;
+					margin-top: 20px;"> <!--Квадрат 2-->
+					<p 
+						class="MainText" 
+						style="
+							color: #c3c3c3;;
+							margin-right: 5px;">У вас уже есть аккаунта?</p>
+					<a 
+						class="MainLinl"
+						style="margin-left: 5px;" 
+						href="AuthorizationPage.html">Авторизоваться</a>
+			</div>
+		</div>
+	</body>
 </html>
