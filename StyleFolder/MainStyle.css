@@ -1,7 +1,25 @@
 /* Общий стиль для всех элементов */
-
 *
 {
 	margin: 0px;
 	padding: 0px;
+}
+
+/* Создание шрифта из папки в проект */
+@font-face 
+{
+	font-family: 'MyJuraPublishingPhotosFont';
+	src: url(../ContentFolder/FontFoler/Jura.ttf);
+}
+
+@font-face 
+{
+	font-family: 'MyMaterialDesignIconicFontPublishingPhotosFont';
+	src: url(../ContentFolder/FontFoler/Material-Design-Iconic-Font.ttf);
+}
+
+@font-face 
+{
+	font-family: 'MyZenKakuGothicAntiquePublishingPhotosFont';
+	src: url(../ContentFolder/FontFoler/ZenKakuGothicAntique.ttf);
 }

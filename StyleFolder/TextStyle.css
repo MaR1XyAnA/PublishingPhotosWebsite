@@ -1,32 +1,20 @@
-/* Создание шрифта из папки в проект */
-@font-face 
-{
-	font-family: 'MyJura';
-	src: url(../ContentFolder/FontFoler/Jura.ttf);
-}
-
-@font-face 
-{
-	font-family: 'MyMaterialDesignIconicFont';
-	src: url(../ContentFolder/FontFoler/Material-Design-Iconic-Font.ttf);
-}
-
 /* Стиль для логотипа */
 #OtherLogoText
 {
-	font-size: 40px;
-	font-family: 'MyJura', sans-serif;
+	font-size: 45px;
+	font-family: 'MyJuraPublishingPhotosFont', sans-serif;
 	color: #f5f5f5;
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	text-shadow: 0 0 15px 4px #e1a0f4;
 }
 
 /* Основной стиль */
 .MainText
 {
 	font-size: 20px;
-	font-family: 'Consolas', sans-serif;
+	font-family: 'MyZenKakuGothicAntiquePublishingPhotosFont', sans-serif;
 	color: #f5f5f5;
 	text-align: center;
 }
@@ -35,7 +23,7 @@
 .IconText
 {
 	font-size: 30px;
-	font-family: 'MyMaterialDesignIconicFont', sans-serif;
+	font-family: 'MyMaterialDesignIconicFontPublishingPhotosFont', sans-serif;
 	color: #f5f5f5;
 	text-align: center;
 }
