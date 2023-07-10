@@ -1,5 +1,6 @@
 /* Основной стиль */
 #BackgroundPageStyle 
 {
+	user-select: none; 
 	background: #0a0a0a;
 }

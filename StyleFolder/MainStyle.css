@@ -23,3 +23,9 @@
 	font-family: 'MyZenKakuGothicAntiquePublishingPhotosFont';
 	src: url(../ContentFolder/FontFoler/ZenKakuGothicAntique.ttf);
 }
+
+@font-face 
+{
+	font-family: 'SofiaSansSemiCondensedPublishingPhotosFont';
+	src: url(../ContentFolder/FontFoler/SofiaSansSemiCondensed.ttf);
+}

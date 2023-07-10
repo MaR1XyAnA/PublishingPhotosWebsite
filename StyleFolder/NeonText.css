@@ -1,0 +1,32 @@
+.MyNeonStyleSpanPick 
+{
+	margin: 0px 10px 0px 10px;
+	font-family: 'SofiaSansSemiCondensedPublishingPhotosFont', sans-serif;
+	font-size: 10em;
+  color: #fe019a;
+  text-shadow: 0 0 20px #fe019a;
+  animation: neon-flicker 3s ease-in-out infinite alternate;
+}
+
+.MyNeonStyleSpanBlue 
+{
+	margin: 0px 10px 0px 10px;
+	font-family: 'SofiaSansSemiCondensedPublishingPhotosFont', sans-serif;
+	font-size: 10em;
+  color: #04d9ff; 
+  text-shadow: 0 0 20px #04d9ff;
+  animation: neon-flicker 6s ease-in-out infinite alternate;
+}
+
+@keyframes neon-flicker 
+{
+  50% 
+	{
+    opacity: 0.4;
+  }
+
+  100% 
+	{
+    opacity: 1;
+  }
+}

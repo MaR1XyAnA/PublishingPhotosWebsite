@@ -4,16 +4,15 @@
 	border-radius:10px;
 	background: #19191a;
 	width: 520px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	margin: auto;
 }
 
 /* Это что-то на подобии создания облости для работы */
 .MainSquare
 {
 	text-align: center;
-	background: transparent;
 	width: 480px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	margin: auto;
 }
