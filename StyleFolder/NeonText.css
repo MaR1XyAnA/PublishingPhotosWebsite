@@ -3,9 +3,9 @@
 	margin: 0px 10px 0px 10px;
 	font-family: 'SofiaSansSemiCondensedPublishingPhotosFont', sans-serif;
 	font-size: 10em;
-  color: #fe019a;
-  text-shadow: 0 0 20px #fe019a;
-  animation: neon-flicker 3s ease-in-out infinite alternate;
+  color: #ffdbf1;
+	text-shadow: 0 0 20px #fe019a;
+  animation: neonPick 6s infinite alternate;
 }
 
 .MyNeonStyleSpanBlue 
@@ -13,20 +13,49 @@
 	margin: 0px 10px 0px 10px;
 	font-family: 'SofiaSansSemiCondensedPublishingPhotosFont', sans-serif;
 	font-size: 10em;
-  color: #04d9ff; 
-  text-shadow: 0 0 20px #04d9ff;
-  animation: neon-flicker 6s ease-in-out infinite alternate;
+  color: #d2f8ff;
+	text-shadow: 0 0 20px #04d9ff;
+  animation: neonBlue 9s infinite alternate;
 }
 
-@keyframes neon-flicker 
+@keyframes neonPick 
 {
-  50% 
+	0%, 18%, 22%, 25%, 53%, 57%, 100% 
 	{
-    opacity: 0.4;
-  }
+		text-shadow:
+			0 0 13px #ffdbf1,
+			0 0 14px #ffdbf1,
+			0 0 15px #ffdbf1,
+			0 0 16px #fe019a,
+			0 0 17px #fe019a,
+			0 0 18px #fe019a,
+			0 0 19px #fe019a,
+			0 0 20px #fe019a;
+	}
 
-  100% 
+	20%, 24%, 55% 
+	{        
+		text-shadow: none;
+	}    
+}
+
+@keyframes neonBlue 
+{
+	0%, 18%, 22%, 25%, 53%, 57%, 100% 
 	{
-    opacity: 1;
-  }
+		text-shadow:
+			0 0 12px #d2f8ff,
+			0 0 13px #d2f8ff,
+			0 0 14px #d2f8ff,
+			0 0 15px #04d9ff,
+			0 0 16px #04d9ff,
+			0 0 17px #04d9ff,
+			0 0 18px #04d9ff,
+			0 0 20px #04d9ff;
+	}
+
+	20%, 24%, 55% 
+	{        
+		text-shadow: none;
+	} 
 }
