@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PageFolder",
-    "\\ScriptFolder"
+    "\\SourceFolder",
+    "\\SourceFolder\\ScriptFolder"
   ],
-  "SelectedNode": "\\ScriptFolder",
+  "SelectedNode": "\\SourceFolder\\ScriptFolder\\TestScript.js",
   "PreviewInSolutionExplorer": false
 }
